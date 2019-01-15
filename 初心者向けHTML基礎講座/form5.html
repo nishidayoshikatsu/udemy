@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="UTF-8">
+        <title>フォーム</title>
+    </head>
+    <body>
+        <form action="" method="get">
+            <fieldset>
+                <legend>有用な属性</legend>
+                <label for="username">ユーザー名：</label><input type="text" name="username" id="username" autofocus required>
+                <br>
+                <label for="on">ON：</label><input type="radio" name="onOff" value="on" id="on" required>
+                <label for="off">OFF：</label><input type="radio" name="onOff" value="off" id="off" checked>
+                <br>
+                <label for="一">一：</label><input type="checkbox" name="一" id="一">
+                <label for="二">二：</label><input type="checkbox" name="二" id="二" checked>
+                <label for="三">三：</label><input type="checkbox" name="三" id="三">
+                <br>
+                <label for="Eメール">Eメール：</label><input type="text" name="email" id="email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}">
+                <input type="submit" value="フォーム送信">
+            </fieldset>
+        </form>
+    </body>
+</html>

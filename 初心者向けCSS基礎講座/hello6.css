@@ -1,0 +1,14 @@
+#hello {
+    border: 1px solid black;
+    padding: 5px 20px 10px 20px;
+    background: gray;
+    margin: 20px;
+}
+
+/*ボックスモデル*/
+
+/*
+padding
+border
+margin
+*/

@@ -1,0 +1,13 @@
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    height: 40px;
+}
+
+span {
+    display: block;
+    clear: both;
+}

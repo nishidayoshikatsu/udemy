@@ -1,0 +1,42 @@
+.relative {
+    border: 1px solid black;
+    padding: 10px;
+    background: gray;
+
+    padding: relative;
+}
+
+.absolute {
+    border: 1px solid black;
+    padding: 10px;
+    background: lightgray;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fixed {
+    padding: 10px;
+    border: 1px solid black;
+    background: gray;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*position*/
+
+/*
+relative (相対的)
+absolute (絶対的)
+fixed (固定)
+*/
+
+/*
+top
+right
+left
+bottom
+*/

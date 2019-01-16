@@ -1,0 +1,25 @@
+/*
+ここがコメントになります。
+複数行に分けることもできます。
+*/
+
+p {
+    color: blue;
+    font-weight: bold;
+}
+
+p, strong {
+    color: blue;
+}
+
+p a {
+    color: green;
+}
+
+p.second {
+    color: orange;
+}
+
+#third {
+    color: brown;
+}
